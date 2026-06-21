@@ -12,3 +12,6 @@ for arquivo in arquivos:
 df_consolidado = pd.concat(lista_dfs)
 
 print(df_consolidado.shape)
+resultado = df_consolidado.groupby(["Região", "Produto"])["Qtd Vendas"].sum()
+print(resultado)
+resultado.to_excel("saida/relatorio_consolidado.xlsx")
