@@ -19,9 +19,3 @@ python consolidador.py
 \`\`\`
 
 Coloque seus arquivos `.xlsx` dentro de `dados/entrada` antes de rodar.
-
-## Próximos passos
-
-- Agregação por loja
-- Interface de linha de comando para escolher o tipo de agregação
-- Exportar gráficos junto com a tabela
